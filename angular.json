@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "header-footer:build"
+            "browserTarget": "budget-app-git:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "header-footer:build:production"
+              "browserTarget": "budget-app-git:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "header-footer:build"
+            "browserTarget": "budget-app-git:build"
           }
         },
         "test": {
@@ -116,11 +116,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "header-footer:serve"
+            "devServerTarget": "budget-app-git:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "header-footer:serve:production"
+              "devServerTarget": "budget-app-git:serve:production"
             }
           }
         }
