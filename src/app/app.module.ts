@@ -28,6 +28,7 @@ import {
   SocialLoginModule,
 } from 'angularx-social-login';
 import { LoginComponent } from './login/login.component';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -53,6 +54,7 @@ import { LoginComponent } from './login/login.component';
     FlexLayoutModule,
     MatSidenavModule,
     MatListModule,
+    MatCardModule,
     SocialLoginModule,
   ],
   providers: [
